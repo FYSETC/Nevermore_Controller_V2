@@ -51,6 +51,9 @@ After updating the ID and restarting Klipper, you can view the status of the Nev
 You can use the following test commands.
 
 ```shell
-SET_FAN_SPEED FAN=nevermore_fan SPEED=0.5
+SET_FAN_SPEED FAN=nevermore_fan SPEED=0.4
+SET_LED LED=nevermore RED=1 GREEN=0 BLUE=0   # Modify the value of led_chain_count in the configuration file.
+NEVERMORE_VENT_SERVO_SET PERCENT=1  
+NEVERMORE_VENT_SERVO_SET PERCENT=0.1 
 ```
 
