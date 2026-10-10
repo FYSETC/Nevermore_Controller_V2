@@ -14,3 +14,4 @@
  # 3. Applications
 - StealthMax V2
  # 4. Wiring Diagram
+ ![](./images/Wiring.png)
